@@ -65,9 +65,9 @@
 
         // ( ==, ===, !=, !==, >, >=, <, <=, ? )
 
-        age = 21
+        // age = 5
 
-        // result = (a == 5)
+        // result = (age == 5)
         // result = (a === 5)
         // result = (a != 5)
         // result = (a !== 5)
@@ -75,17 +75,135 @@
         // result = (a >= 5)
         // result = (a < 5)
         // result = (age <= 18)
-        result = (age >= 18) ? "Your Eligible for Voting" : "Not Eligible"
+        // result = (age >= 18) ? "Your Eligible for Voting" : "Not Eligible"
 
-        console.log(result);
+        // console.log(result);
         
-
     // 4. String OP
+
+    // txt1 = "hello"
+    // txt2 = "hello"
+
+    // result = txt1 + " " + txt2
+
+    // console.log(result);   
+
+
     // 5. Logical OP
-    // 6. Bitwise OP
+
+        // (&&, ||, !)
+
+        // &&
+
+            // (true)  && (true)   ==> true
+            // (true)  && (false)  ==> false
+            // (false) && (true)   ==> false
+            // (false) && (false)  ==> false
+
+        
+            // age = 18
+
+            // result = (age >= 18) && (age == 18)
+
+            // console.log(result);
+            
+
+            // ||
+
+            // (true)  || (true)   ==> true
+            // (true)  || (false)  ==> true
+            // (false) || (true)   ==> true
+            // (false) || (false)  ==> false
+
+            // !
+
+            // (true)   ====> false
+
+            // age = 15
+
+            // result = (age >= 18) || (age == 18)
+
+            // console.log(!result);
+
     // 7. Ternary OP
     // 8. Type OP
 
+// Hoisting --> (Declaration)
+
+// ES5
+
+    // var
+
+        // var a = 10
+
+        // var a = 20
+
+        // console.log(a);
+    
+
+// ES6
+
+    // let
+
+        // let a
+
+        // a = 20
+
+        // console.log(a);
+    
+    // const
+
+        // const a = 20
+
+        // console.log(a);
+    
+
+// Scope: 
+
+    // Global scope
+
+        // {
+        //    var a = 10
+        
+        //    console.log("inside: ", a);
+        
+        // }
+
+        //  console.log("outside: ", a);
+
+    // Local scope
+
+        // {
+        //   let a = 10;
+
+        //   console.log("inside: ", a);
+        // }
+
+        // console.log("outside: ", a);
 
 
 
+
+{
+    {
+        {
+            let a = 100
+            {
+                {
+                    {
+                        {
+                            {
+                                console.log(a);
+                                
+                            }
+                        }
+                    }
+                }
+                console.log(a);
+                
+            }
+        }
+    }
+}
+
+console.log(a);
