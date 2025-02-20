@@ -72,7 +72,3 @@ function mul(a){
 let result = mul(99)
 
 console.log(result);
-
-let ele = document.getElementById("dddd")
-
-ele.innerText = result
