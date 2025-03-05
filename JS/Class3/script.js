@@ -47,19 +47,34 @@
 
 // Objects:
 
-    let obj = {name: "raj", age: 23, dept: "IT", college: "xyz"}
+    // let obj = {name: "raj", age: 23, dept: "IT", college: "xyz"}
 
-    obj.name = "Raj kumar"
+    // obj.name = "Raj kumar"
 
-    console.log(obj);
-    console.log(obj.name);
-    console.log(obj.age);
+    // console.log(obj);
+    // console.log(obj.name);
+    // console.log(obj.age);
 
 
+// Array Destructing:
+
+// let fruits = ["apple", "orange", "banana", "kiwi"]
     
+// console.log(fruits);
+
+// const [a, o, b, k] = fruits
+
+// console.log(o);
+// console.log(k);
 
 
+// Object Destructuring
 
+let obj = {name: "raj", age: 23, dept: "IT", college: "xyz"}
 
+console.log(obj);
 
+const {name, age, course, college} = obj
+
+console.log(course);
 
