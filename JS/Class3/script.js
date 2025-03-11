@@ -1,80 +1,151 @@
-// Normal function
+// let fruits = ["apple", "banana", "orange", "kiwi", "grapes"]
 
-    // function demo(num){
-    //     return num * 2
-    // }
+    // console.log(fruits[1]);
+    // console.log(fruits[2]);
+    // console.log(fruits[0]);
 
-    // const result = demo(100)
+// Array Destructuring:
 
-    // console.log(result);
+    // const [x, z, k, g] = fruits
 
-// Ananymous function
+    // console.log(x);
+    // console.log(k);
 
-    // let ana = function(x){
-    //     console.log(x);
-    // }
 
-    // ana("I am Ananymous");
+// Object
 
-// Arrow Function
+// let student1 = {
+//     name: "Kavitha",
+//     age: 25,
+//     dept: "IT",
+//     college: "XYZ"
+// }
 
-    // const arr = (x) => x * 3;
+// console.log(student1);
+// // console.log(student1.name);
+// // console.log(student1.age);
 
-    // let result = arr(20)
 
-    // console.log(result);
+// // Object Destructuring:
 
-// IIFE (Immediately Invoked Function Expression)
+//     let {name, age, dept, college} = student1
 
-    // (()=>{
-    //     console.log("I am IIFE");
-    // })()
+//     college = "ABC"
+
+//     console.log(college);
+
 
 // Arrays:
 
-    // let arr = [15, 25, 35, 45, 65, 75, 85, 1,3, 4, 5,6]
-        //    #0   #1  #2  #3  #4...........   index
+    // let arr1 = [100, 200, 300, 400]
+    // let arr2 = [1, 2, 3, 4, 5]
 
-    // console.log(arr);
+// // Spread Operator
 
-    // console.log(arr[2]);
+    // arr3 = [...arr1, ...arr2]
 
-    // arr[2] = 3500
+    // arr3 = [...arr3, 500]
 
-    // console.log(arr);
+    // console.log(arr3);
 
-    // console.log(arr.length);
+// Normal function
 
-// Objects:
+    // function demo(x){             // fun definition
+    //     console.log(x);
+    // }
 
-    // let obj = {name: "raj", age: 23, dept: "IT", college: "xyz"}
+    // demo("hello");                       // fun call
+    // demo("hi")                       // fun call
+    // demo(200)                       // fun call
 
-    // obj.name = "Raj kumar"
+    // function Mul(x){
+    //     return x * 2
+    // }
 
-    // console.log(obj);
-    // console.log(obj.name);
-    // console.log(obj.age);
+    // result = Mul(60)
 
+    // console.log(result);
 
-// Array Destructing:
+// Ananymous function:
 
-// let fruits = ["apple", "orange", "banana", "kiwi"]
-    
-// console.log(fruits);
+    // let num = function(){
+    //     console.log("hello, I am Ananymous");
+    // }
 
-// const [a, o, b, k] = fruits
+    // num()
 
-// console.log(o);
-// console.log(k);
+// Arrow Function:
 
+    // let arr = () => console.log("hello, I am Arrow");
 
-// Object Destructuring
+    // arr()
 
-let obj = {name: "raj", age: 23, dept: "IT", college: "xyz"}
+// IIFE Function:
 
-console.log(obj);
+    // (() => {
+    //     console.log("Hi");
+    // })()
 
-const {name, age, course, college} = obj
+// Control Statements:
 
-console.log(course);
+    // 1. Conditional Statements
 
+        // if
+
+            // let age = 17
+
+            // if(age > 18){
+            //     console.log("Eligible for voting");
+            // }
+
+        // if else
+
+            // let age = 20;
+
+            // if (age > 18) {
+            //     console.log("Eligible for voting");
+            // }else{
+            //     console.log("Not Eligible");
+            // }
+
+        // if else if
+
+            //  let age = 17;
+
+            //  if (age > 18) {
+            //    console.log("Eligible for voting");
+            //  }else if(age == 18) { 
+            //    console.log("Possibilities for voting");
+            //  }else {
+            //    console.log("Not Eligible");
+            //  }
+
+        // switch case
+
+            let day = "Mon"
+
+            switch (day) {
+              case "Mon":
+                console.log("It's a Monday");
+                break;
+              case 2:
+                console.log("It's a Tuesday");
+                break;
+              case 3:
+                console.log("It's a Wednesday");
+                break;
+              case 4:
+                console.log("It's a Thursday");
+                break;
+              case 5:
+                console.log("It's a Friday");
+                break;
+              case 6:
+                console.log("It's a Saturday");
+                break;
+              default:
+                console.log("Happy Weekend");
+                break;
+            }
+
+    // 2. Looping Statements
