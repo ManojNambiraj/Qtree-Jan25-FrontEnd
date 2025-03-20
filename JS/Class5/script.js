@@ -18,16 +18,34 @@
 // ele2[1].style.fontSize = "30px"
 // ele2[1].style.color = "blue"
 
-let newEle = document.createElement("p")
+// let newEle = document.createElement("p")
 
-document.body.append(newEle);
+// document.body.append(newEle);
 
-// ------------------------------------------
+// // ------------------------------------------
 
-let newEle2 = document.createElement("h1")
+// let newEle2 = document.createElement("h1")
 
-newEle2.setAttribute("class", "heading");
+// newEle2.setAttribute("class", "heading");
 
-newEle2.innerText = "hello world"
+// newEle2.innerText = "hello world"
 
-newEle.appendChild(newEle2)
+// newEle.appendChild(newEle2)
+
+// function display(result){
+//     console.log(result);   
+// }
+
+// function add(a, b, display){
+//    let result = a + b
+
+//    display(result)
+// }
+
+// add(5, 7, display)
+
+// let demo = () => {
+//     console.log("hello");
+// }
+
+// setInterval(demo, 3000);

@@ -7,7 +7,7 @@ function ClickBtn(props) {
       <button
         style={{ backgroundColor: props.btnColor }}
         // onClick={handleClick}
-        onClick={()=>{props.handleClick(props.name);}}
+        onClick={() => {props.handleClick(props.name);}}
       >
         {props.name}
       </button>

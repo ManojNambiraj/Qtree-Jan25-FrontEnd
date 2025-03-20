@@ -1,26 +1,17 @@
-import './App.css';
-import ClickBtn from './ClickBtn';
+import React from 'react'
+// import First from './First'
+import LocalState from './LocalState'
+import "./App.css";
+
 
 function App() {
-   const handleClick = (value) => {
-     alert(value);
-   };
-
   return (
-    <div className="App">
-      <ClickBtn name={"Okay"} btnColor={"red"} handleClick={handleClick} />
-      <ClickBtn name={"Music"} btnColor={"blue"} handleClick={handleClick} />
-      <ClickBtn name={"Books"} btnColor={"Yellow"} handleClick={handleClick} />
-      <ClickBtn name={"Sports"} btnColor={"Green"} handleClick={handleClick} />
-      <ClickBtn name={"AC"} btnColor={"pink"} handleClick={handleClick} />
-      <ClickBtn name={"DC"} btnColor={"crimson"} handleClick={handleClick} />
-      <ClickBtn
-        name={"XYZ"}
-        btnColor={"yellowGreen"}
-        handleClick={handleClick}
-      />
+    <div className='App'>
+      {/* <First /> */}
+
+      <LocalState />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
